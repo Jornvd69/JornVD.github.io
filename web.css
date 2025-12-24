@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
-    color: #1e1e1e;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -30,15 +30,29 @@ h2 {
     color: #4ec9b0;
 }
 
+/* Prism scrollable codeblok */
 pre[class*="language-"] {
-    max-height: 300px;    
+    max-height: 400px;   /* past goed voor lange code */
     overflow-y: auto;
     overflow-x: auto;
     padding: 12px;
     border-radius: 8px;
-    background-color: #2d2d2d;  
+    background-color: #2d2d2d;
 }
 
+/* optionele scrollbar styling */
+pre[class*="language-"]::-webkit-scrollbar {
+    width: 8px;
+}
+
+pre[class*="language-"]::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+pre[class*="language-"]::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
 
 footer {
     text-align: center;
@@ -46,4 +60,3 @@ footer {
     background-color: #252526;
     color: #aaa;
 }
-
