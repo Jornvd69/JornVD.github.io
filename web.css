@@ -32,8 +32,11 @@ h2 {
 
 pre {
     border-radius: 8px;
-    overflow-x: auto;
-    padding: 0;
+    overflow-y: auto;   /* verticale scroll */
+    overflow-x: auto;   /* horizontale scroll */
+    max-height: 300px;  /* maximale hoogte */
+    padding: 10px;
+    background-color: #2d2d2d;
 }
 
 footer {
