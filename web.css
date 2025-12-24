@@ -31,7 +31,7 @@ h2 {
 }
 
 pre[class*="language-"] {
-    max-height: 300px;
+    max-height: 20px;
     overflow-y: auto;
     overflow-x: auto;
     padding: 12px;
