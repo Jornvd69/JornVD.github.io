@@ -30,13 +30,12 @@ h2 {
     color: #4ec9b0;
 }
 
-pre {
+pre[class*="language-"] {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 12px;
     border-radius: 8px;
-    overflow-y: auto;   /* verticale scroll */
-    overflow-x: auto;   /* horizontale scroll */
-    max-height: 300px;  /* maximale hoogte */
-    padding: 10px;
-    background-color: #2d2d2d;
 }
 
 footer {
